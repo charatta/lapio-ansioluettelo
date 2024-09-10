@@ -53,7 +53,7 @@ strong {
 }
 
 hr {
-    width: 50%;
+    width: 70%;
     margin-left: 0;
 }
 
@@ -63,6 +63,10 @@ hr {
     height: 1px;
     background-color: #333;
 }   
+
+.h {
+    color: rgb(94, 91, 97);
+}
 
 h3 {
     font-size: 18px;
