@@ -1,13 +1,28 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
     color: #919191;
-    line-height: 1.8em;
+    line-height: 1.5em;
 }
 
-hr {
-    width: 50%;
-    margin-left: 0;
+strong {
+    color: floralwhite;
+}
+
+#tekstiheader {
+    font-size: 2em;
+}
+
+.tekstialue {
+    margin-top: 5%;
+    position: relative;
+    left: 30%;
+    width: 60%;
+}
+
+.flexluetteloteksti {
+    display: flex;
+    gap: 5%; 
 }
 
 .sivupalkki {
@@ -21,20 +36,34 @@ hr {
     text-align: center;
 }
 
-.title-header {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2em;
-    position: relative;
-    left: 30%;
-    margin-top: 2em;
+.sivuteksti {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.8em;
 }
 
-#sivuteksti {
-    margin-top: 20%;
-    top:200px;
+#sivuheader {
+    margin-top: 10%;
 }
-
 
 #mii {
     border-radius: 50%;
+}
+
+hr {
+    width: 50%;
+    margin-left: 0;
+}
+
+.sivupalkki-hr {
+    margin-left: auto;
+    border: none;
+    height: 1px;
+    background-color: #333;
+}   
+
+h3 {
+    font-size: 18px;
 }
